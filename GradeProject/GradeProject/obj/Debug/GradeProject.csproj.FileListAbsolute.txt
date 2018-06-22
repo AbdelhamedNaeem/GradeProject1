@@ -1,0 +1,6 @@
+c:\users\tasne\documents\visual studio 2013\Projects\GradeProject\GradeProject\bin\GradeProject.dll.config
+c:\users\tasne\documents\visual studio 2013\Projects\GradeProject\GradeProject\bin\GradeProject.dll
+c:\users\tasne\documents\visual studio 2013\Projects\GradeProject\GradeProject\bin\GradeProject.pdb
+c:\users\tasne\documents\visual studio 2013\Projects\GradeProject\GradeProject\obj\Debug\GradeProject.csprojResolveAssemblyReference.cache
+c:\users\tasne\documents\visual studio 2013\Projects\GradeProject\GradeProject\obj\Debug\GradeProject.dll
+c:\users\tasne\documents\visual studio 2013\Projects\GradeProject\GradeProject\obj\Debug\GradeProject.pdb
