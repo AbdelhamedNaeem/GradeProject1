@@ -1,0 +1,6 @@
+c:\users\tasne\documents\visual studio 2013\Projects\DoctorPage\DoctorPage\bin\DoctorPage.dll.config
+c:\users\tasne\documents\visual studio 2013\Projects\DoctorPage\DoctorPage\bin\DoctorPage.dll
+c:\users\tasne\documents\visual studio 2013\Projects\DoctorPage\DoctorPage\bin\DoctorPage.pdb
+c:\users\tasne\documents\visual studio 2013\Projects\DoctorPage\DoctorPage\obj\Debug\DoctorPage.csprojResolveAssemblyReference.cache
+c:\users\tasne\documents\visual studio 2013\Projects\DoctorPage\DoctorPage\obj\Debug\DoctorPage.dll
+c:\users\tasne\documents\visual studio 2013\Projects\DoctorPage\DoctorPage\obj\Debug\DoctorPage.pdb
