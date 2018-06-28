@@ -60,8 +60,8 @@
     <Content Include="blood_bank.aspx" />
     <Content Include="clinic.aspx" />
     <Content Include="css\Style.css" />
+    <Content Include="currentLocation.aspx" />
     <Content Include="hospital.aspx" />
-    <Content Include="map.aspx" />
     <Content Include="medical_center.aspx" />
     <Content Include="pharmacy.aspx" />
     <Content Include="Web.config" />
@@ -81,19 +81,19 @@
     <Compile Include="clinic.aspx.designer.cs">
       <DependentUpon>clinic.aspx</DependentUpon>
     </Compile>
+    <Compile Include="currentLocation.aspx.cs">
+      <DependentUpon>currentLocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="currentLocation.aspx.designer.cs">
+      <DependentUpon>currentLocation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="hospital.aspx.cs">
       <DependentUpon>hospital.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="hospital.aspx.designer.cs">
       <DependentUpon>hospital.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="map.aspx.cs">
-      <DependentUpon>map.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="map.aspx.designer.cs">
-      <DependentUpon>map.aspx</DependentUpon>
     </Compile>
     <Compile Include="medical_center.aspx.cs">
       <DependentUpon>medical_center.aspx</DependentUpon>

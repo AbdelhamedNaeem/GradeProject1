@@ -65,6 +65,8 @@
     <Content Include="css\style.css" />
     <Content Include="d1.png" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="GethosResult.asmx" />
+    <Content Include="hoptialSearch.aspx" />
     <Content Include="img\2.jpg" />
     <Content Include="img\3.jpg" />
     <Content Include="img\5.png" />
@@ -76,11 +78,28 @@
     <Content Include="js\plugin.js" />
     <Content Include="js\popper.js" />
     <Content Include="s2.png" />
+    <Content Include="search.aspx" />
     <Content Include="Web.config" />
     <Content Include="map.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GethosResult.asmx.cs">
+      <DependentUpon>GethosResult.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="hoptialSearch.aspx.cs">
+      <DependentUpon>hoptialSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hoptialSearch.aspx.designer.cs">
+      <DependentUpon>hoptialSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hospitals.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

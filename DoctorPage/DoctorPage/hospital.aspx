@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/profile.Master" AutoEventWireup="true" CodeBehind="hospital.aspx.cs" Inherits="DoctorPage.hospital" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -28,8 +27,7 @@
 
           <asp:Label ID="Label10" runat="server" Text="النوع"></asp:Label>
         <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-        <asp:ListItem>Public</asp:ListItem>
-        <asp:ListItem>Special</asp:ListItem>
+        <asp:ListItem>Public</asp:ListItem><asp:ListItem>Special</asp:ListItem>
         </asp:RadioButtonList>
         <br />
         <%--make it multi selected--%>
@@ -48,12 +46,13 @@
         <h5>حدد موقعك علي الخريطة</h5>
 
         <div id="setmarker"></div>
-        <input type="text" id="lathospital" value="" name="lath" />
-        <input type="text" id="lnghospital" value="" name="lngh" />
+        <input type="hidden " id="lathospital" value="" name="lath" />
+        <input type="hidden" id="lnghospital" value="" name="lngh"  />
         <asp:Button ID="Button1" runat="server" Text="تأكيد الموقع" OnClick="Button1_Click" />
-
-        <asp:Label ID="Label1" runat="server" BorderWidth="3px"></asp:Label>
-        <asp:Label ID="Label2" runat="server" BorderWidth="3px"></asp:Label>
+      
+        <asp:Label ID="Label1" runat="server" BorderWidth="3px" ></asp:Label>
+        <asp:Label ID="Label2" runat="server" BorderWidth="3px" ></asp:Label>
+        Label1.Style.Add("display", "none")
 
         &nbsp;<script>
                   var map = L.map('setmarker').setView([31.040948, 31.37847], 13);

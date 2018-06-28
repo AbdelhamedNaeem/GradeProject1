@@ -4,3 +4,9 @@ c:\users\tasne\documents\visual studio 2013\Projects\DoctorPage\DoctorPage\bin\D
 c:\users\tasne\documents\visual studio 2013\Projects\DoctorPage\DoctorPage\obj\Debug\DoctorPage.csprojResolveAssemblyReference.cache
 c:\users\tasne\documents\visual studio 2013\Projects\DoctorPage\DoctorPage\obj\Debug\DoctorPage.dll
 c:\users\tasne\documents\visual studio 2013\Projects\DoctorPage\DoctorPage\obj\Debug\DoctorPage.pdb
+C:\Users\tasne\Documents\GitHub\GradeProject1\DoctorPage\DoctorPage\bin\DoctorPage.dll.config
+C:\Users\tasne\Documents\GitHub\GradeProject1\DoctorPage\DoctorPage\bin\DoctorPage.dll
+C:\Users\tasne\Documents\GitHub\GradeProject1\DoctorPage\DoctorPage\bin\DoctorPage.pdb
+C:\Users\tasne\Documents\GitHub\GradeProject1\DoctorPage\DoctorPage\obj\Debug\DoctorPage.csprojResolveAssemblyReference.cache
+C:\Users\tasne\Documents\GitHub\GradeProject1\DoctorPage\DoctorPage\obj\Debug\DoctorPage.dll
+C:\Users\tasne\Documents\GitHub\GradeProject1\DoctorPage\DoctorPage\obj\Debug\DoctorPage.pdb
