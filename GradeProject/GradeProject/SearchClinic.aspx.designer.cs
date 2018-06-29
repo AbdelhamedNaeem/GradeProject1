@@ -10,7 +10,7 @@
 namespace GradeProject {
     
     
-    public partial class WebForm1 {
+    public partial class SearchClinic {
         
         /// <summary>
         /// TextBox1 control.

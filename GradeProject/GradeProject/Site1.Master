@@ -44,19 +44,29 @@
     <div class="overlay">
     <div class="container">
       <div class="row">
-     <div class="half1 ml col-sm"><span>C<img src="img/5.png">DE</span><br/><img src="img/6.png"/><br/>
+     <div class="half1 ml col-sm"><span>C<img src="img/5.png"/>DE</span><br/><img src="img/6.png"/><br/>
       <span >BLUE</span>
      </div>
      <div class="half2">
-       <label> تواصل معنا </label>
-       <label> <i class="fa fa-user fa-lg"></i> تسجيل دخول</label>
+     <%--  <label> تواصل معنا </label>--%>
+         <asp:Label ID="Label1" runat="server" Text="تواصل معنا"></asp:Label>
+      <%-- <label> <i class="fa fa-user fa-lg"></i> تسجيل دخول</label--%>><asp:Label ID="Label2" runat="server" Text=" تسجيل دخول"></asp:Label>
      </div>
-     <a href="map.aspx" > مكاتب خدمات <br/> الصحه العامه <i class="fa fa-american-sign-language-interpreting fa-l"></i></a>
-     <a href="" >  الاستشارات <i class="fa fa-comments fa-lg"></i></a>
+         <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/map.aspx"> مكاتب خدمات <br/> الصحه العامه</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton6" runat="server" PostBackUrl="~/hoptialSearch.aspx">الاستشارات </asp:LinkButton>
+         <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/"> بنك الدم</asp:LinkButton>
+         <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/map.aspx"> صيدليات</asp:LinkButton>
+                  <asp:LinkButton ID="LinkButton4" runat="server" PostBackUrl="~/SearchClinic.aspx"> عيادات</asp:LinkButton>
+         <asp:LinkButton ID="LinkButton5" runat="server" PostBackUrl="~/map.aspx"> مستشفيات</asp:LinkButton>
+       
+
+
+<%--     <a href="map.aspx" > مكاتب خدمات <br/> الصحه العامه <i class="fa fa-american-sign-language-interpreting fa-l"></i></a>--%>
+   <%--  <a href="hoptialSearch.aspx" >  الاستشارات <i class="fa fa-comments fa-lg"></i></a>
      <a href="" > بنك الدم <i class="fa fa-ambulance fa-lg"></i>
      <a href="" > صيدليات <i class="fa fa-medkit fa-lg"></i></a>
      <a href="" > عيادات <i class="fa fa-user-md fa-lg"></i></a>
-     <a href="" > مستشفيات <i class="fa fa-heartbeat fa-lg"></i></a>
+     <a href="" > مستشفيات <i class="fa fa-heartbeat fa-lg"></i></a>--%>
    </div>
    </div>
  </div>

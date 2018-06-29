@@ -3,9 +3,48 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
  <div>
-     
+    <h1>بحث عن مكاتب الصحة العامة </h1> 
  </div>
-      <div id="setmarker"></div>
+      
+        <div>
+            <p>
+                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                المدينة</p>
+            <p>
+                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                المنطقة</p>
+            <p>
+                <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                النوع</p>
+            <p>
+                <asp:Button ID="Button1" runat="server" Text="search" />
+            </p>
+
+            <table border="1" style="border-collapse: collapse">
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input id="txtName" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>
+                        <input id="txtAdrress" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>Link</td>
+                    <td>
+                        <input id="txtlink" type="text" /></td>
+                </tr>
+            </table>
+
+
+        </div>
+        
+        <br />
+
+
+  <%--    <div id="setmarker"></div>
     <br />
       <input type="text" id="lat" val=""/>
       <input type="text" id="lng" val=""/>
@@ -30,5 +69,5 @@
             marker.bindPopup("<b> Lat : " + position.lat + " , Lng : " + position.lat + "</b>").openPopup();
         });
         map.addLayer(marker);
-    </script>
+    </script>--%>
 </asp:Content>

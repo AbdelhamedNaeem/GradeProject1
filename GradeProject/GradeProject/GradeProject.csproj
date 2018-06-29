@@ -79,6 +79,7 @@
     <Content Include="js\popper.js" />
     <Content Include="s2.png" />
     <Content Include="search.aspx" />
+    <Content Include="SearchClinic.aspx" />
     <Content Include="Web.config" />
     <Content Include="map.aspx" />
   </ItemGroup>
@@ -99,6 +100,13 @@
     <Compile Include="search.aspx.cs">
       <DependentUpon>search.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchClinic.aspx.cs">
+      <DependentUpon>SearchClinic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchClinic.aspx.designer.cs">
+      <DependentUpon>SearchClinic.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
