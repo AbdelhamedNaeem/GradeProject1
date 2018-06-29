@@ -12,16 +12,11 @@
             DataValueField="city_id" AutoPostBack="True"
             OnSelectedIndexChanged="cityname_SelectedIndexChanged">
         </asp:DropDownList>
-        <%-- <asp:DropDownList ID="cityclinic" runat="server">
-       </asp:DropDownList>--%>
         <asp:Label ID="Label6" runat="server" Text="المدينة"></asp:Label>
-
         <br />
         <asp:DropDownList ID="zonename" runat="server" DataTextField="zone_name"
             DataValueField="zone_id">
         </asp:DropDownList>
-        <%--  <asp:DropDownList ID="zoneclinic" runat="server">
-       </asp:DropDownList>--%>
         <asp:Label ID="Label8" runat="server" Text="المنطقة"></asp:Label>
 
         <br />
