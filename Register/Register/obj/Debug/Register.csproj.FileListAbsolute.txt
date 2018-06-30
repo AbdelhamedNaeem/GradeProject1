@@ -1,0 +1,6 @@
+c:\users\tasne\documents\visual studio 2013\Projects\Register\Register\bin\Register.dll.config
+c:\users\tasne\documents\visual studio 2013\Projects\Register\Register\bin\Register.dll
+c:\users\tasne\documents\visual studio 2013\Projects\Register\Register\bin\Register.pdb
+c:\users\tasne\documents\visual studio 2013\Projects\Register\Register\obj\Debug\Register.csprojResolveAssemblyReference.cache
+c:\users\tasne\documents\visual studio 2013\Projects\Register\Register\obj\Debug\Register.dll
+c:\users\tasne\documents\visual studio 2013\Projects\Register\Register\obj\Debug\Register.pdb
