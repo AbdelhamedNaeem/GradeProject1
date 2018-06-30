@@ -52,12 +52,12 @@
          <asp:Label ID="Label1" runat="server" Text="تواصل معنا"></asp:Label>
       <%-- <label> <i class="fa fa-user fa-lg"></i> تسجيل دخول</label--%>><asp:Label ID="Label2" runat="server" Text=" تسجيل دخول"></asp:Label>
      </div>
-         <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/map.aspx"> مكاتب خدمات <br/> الصحه العامه</asp:LinkButton>
-            <asp:LinkButton ID="LinkButton6" runat="server" PostBackUrl="~/hoptialSearch.aspx">الاستشارات </asp:LinkButton>
-         <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/"> بنك الدم</asp:LinkButton>
-         <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/map.aspx"> صيدليات</asp:LinkButton>
-                  <asp:LinkButton ID="LinkButton4" runat="server" PostBackUrl="~/SearchClinic.aspx"> عيادات</asp:LinkButton>
-         <asp:LinkButton ID="LinkButton5" runat="server" PostBackUrl="~/map.aspx"> مستشفيات</asp:LinkButton>
+         <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/MedicalOffices.aspx"> مكاتب خدمات <br/> الصحه العامه</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton6" runat="server" PostBackUrl="~/">الاستشارات </asp:LinkButton>
+         <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/BankSearch.aspx"> بنك الدم</asp:LinkButton>
+         <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/PharmSearch.aspx"> صيدليات</asp:LinkButton>
+                  <asp:LinkButton ID="LinkButton4" runat="server" PostBackUrl="~/ClinicSearch.aspx"> عيادات</asp:LinkButton>
+         <asp:LinkButton ID="LinkButton5" runat="server" PostBackUrl="~/HospitalSearch.aspx.aspx"> مستشفيات</asp:LinkButton>
        
 
 
