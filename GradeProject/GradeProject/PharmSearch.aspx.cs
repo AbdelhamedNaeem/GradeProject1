@@ -41,7 +41,7 @@ namespace GradeProject
             else
             {
                 DropDownList2.Enabled = true;
-                SqlDataReader d = DataManager.GetDataReader("zones_search", out con, new SqlParameter("@city_id", DropDownList1.SelectedValue));
+                SqlDataReader d = DataManager.GetDataReader("getZonesbycitiesID", out con, new SqlParameter("@city_id", DropDownList1.SelectedValue));
                 DropDownList2.DataSource = d;
                 DropDownList2.DataBind();
                 ListItem liZone = new ListItem("Select Zone", "-1");
@@ -57,6 +57,25 @@ namespace GradeProject
             }
         }
         protected void Button1_Click(object sender, EventArgs e)
+        {
+            //SqlConnection con;
+            //SqlDataReader dr = DataManager.GetDataReader("@search_pharmacy", out con, new SqlParameter("@pharm_city", DropDownList1.Text)
+            //                                                                   , new SqlParameter("@pharm_city", DropDownList1.Text));
+
+
+            //if (dr.HasRows)
+            //{
+            //    DataList1.DataSource = dr;
+            //    DataList1.DataBind();
+            //}
+            //else
+            //{
+            //    clear("Not Found");
+            //}
+            //con.Close();
+        }
+
+        protected void Button1_Click1(object sender, EventArgs e)
         {
             SqlConnection con;
             SqlDataReader dr = DataManager.GetDataReader("@search_pharmacy", out con, new SqlParameter("@pharm_city", DropDownList1.Text)

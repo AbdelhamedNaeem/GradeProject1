@@ -59,6 +59,8 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BankSearch.aspx" />
+    <Content Include="ClinicSearch.aspx" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\media.css" />
@@ -76,11 +78,26 @@
     <Content Include="js\jquery.nicescroll.min.js" />
     <Content Include="js\plugin.js" />
     <Content Include="js\popper.js" />
+    <Content Include="MedicalOffices.aspx" />
     <Content Include="PharmSearch.aspx" />
     <Content Include="s2.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BankSearch.aspx.cs">
+      <DependentUpon>BankSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BankSearch.aspx.designer.cs">
+      <DependentUpon>BankSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicSearch.aspx.cs">
+      <DependentUpon>ClinicSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClinicSearch.aspx.designer.cs">
+      <DependentUpon>ClinicSearch.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DataManager.cs" />
     <Compile Include="HospitalSearch.aspx.cs">
       <DependentUpon>HospitalSearch.aspx</DependentUpon>
@@ -88,6 +105,13 @@
     </Compile>
     <Compile Include="HospitalSearch.aspx.designer.cs">
       <DependentUpon>HospitalSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MedicalOffices.aspx.cs">
+      <DependentUpon>MedicalOffices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MedicalOffices.aspx.designer.cs">
+      <DependentUpon>MedicalOffices.aspx</DependentUpon>
     </Compile>
     <Compile Include="PharmSearch.aspx.cs">
       <DependentUpon>PharmSearch.aspx</DependentUpon>

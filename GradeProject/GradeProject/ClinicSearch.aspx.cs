@@ -41,7 +41,7 @@ namespace GradeProject
             else
             {
                 DropDownList2.Enabled = true;
-                SqlDataReader d = DataManager.GetDataReader("zones_search", out con, new SqlParameter("@city_id", DropDownList1.SelectedValue));
+                SqlDataReader d = DataManager.GetDataReader("getZonesbycitiesID", out con, new SqlParameter("@city_id", DropDownList1.SelectedValue));
                 DropDownList2.DataSource = d;
                 DropDownList2.DataBind();
                 ListItem liZone = new ListItem("Select Zone", "-1");
